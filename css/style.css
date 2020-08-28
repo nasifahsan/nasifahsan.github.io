@@ -10,7 +10,7 @@ body{
  color: white;
  font-family: 'Roboto', sans-serif;
 }
-.latter{
+.latter-1{
     letter-spacing: 5px;
 }
 .container-pad{
@@ -19,4 +19,15 @@ body{
 .img-front{
     height: 430px;
     width: 430px;
+}
+.btn-pad{
+    margin: 0 auto;
+    display: table;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    
+}
+.latter-2{
+    letter-spacing: 2px;
 }
