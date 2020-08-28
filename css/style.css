@@ -1,3 +1,22 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.nav-bg{
+    background-color: #202731;
+    color: white;
+}
+.about-container{
+ background-color: #202731;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+}
+.latter{
+    letter-spacing: 5px;
+}
+.container-pad{
+    padding-left: 50px;
+}
+.img-front{
+    height: 430px;
+    width: 430px;
+}
