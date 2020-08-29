@@ -84,3 +84,12 @@ color: #FF4500;;
         margin-bottom: 20px;
     }
 }
+
+.Project-container{
+    background-color: #000000;
+    color: white; 
+}
+
+.innner-container{
+    background-color: gray;
+}
