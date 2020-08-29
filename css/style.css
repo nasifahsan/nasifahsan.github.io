@@ -31,3 +31,55 @@ body{
 .latter-2{
     letter-spacing: 2px;
 }
+.service-container{
+    background-color: #000000;
+    color: white;
+    
+    
+}
+.hr-1{
+    background-color: #FF4500;
+    width: 20px;
+}
+.latter-service{
+color: #FF4500;;
+}
+
+.serviceBox{
+    border: 2px solid hsl(0, 0%, 27%);
+    color: hsl(0, 0%, 27%);
+    padding: 37px 18px;
+    text-align:center;
+}
+.serviceBox .service-icon i{
+    position: relative;
+    bottom: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 46px;
+    transition: all 0.2s ease 0s;
+    
+}
+.serviceBox:hover i{
+    bottom:5px;
+}
+.serviceBox .service-content h3{
+    font-size:16px;
+    text-transform: capitalize;
+    font-weight:600;hsl(0, 0%, 60%)
+}
+.serviceBox .service-content p{
+    color: #ffffff;
+}
+.serviceBox .service-content .line{
+    background: #FFFFFF;
+    height: 2px;
+    margin: 22px auto;
+    opacity: 0.2;
+    width: 40px;
+}
+@media screen and (max-width: 990px){
+    .serviceBox{
+        margin-bottom: 20px;
+    }
+}
