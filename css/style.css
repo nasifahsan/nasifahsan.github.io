@@ -91,10 +91,13 @@ color: #FF4500;;
 }
 
 .innner-container{
-    background-color: gray;
+    background-color: #FFFFFF
 }
 .gallery-size{
     height: 600px;
     width: 600px;
     margin: 0 auto;
+}
+.black-text{
+    color: white;
 }
