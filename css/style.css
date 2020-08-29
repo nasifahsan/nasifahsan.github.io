@@ -93,3 +93,8 @@ color: #FF4500;;
 .innner-container{
     background-color: gray;
 }
+.gallery-size{
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
