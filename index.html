@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/Main.png">
  
@@ -179,7 +182,7 @@
 
 <!-- Projects Section  -->
 <div class="project-container py-5" id="Projects">
-  <div class="container">
+  <div class="container  ">
     <div class="row ">
       <div class="col ">
         <h1 class="text-center pt-5">Projects</h1>
@@ -187,7 +190,6 @@
       </div>
     </div>
     <div class="row">
-     
           <div class="col-md-4">
             <a  href="img/Gallary (1).png"
               data-size="1600x1067">
@@ -247,7 +249,43 @@
     </div>
   </div>
 <!-- Testimonial Section  -->
+<div class="testimonial-section py-5" id="Testimonial">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+            <h1 class="text-center pt-5">Testimonial</h1>
+<hr class="hr-1 mb-5">
+              <div id="testimonial-slider" class="owl-carousel">
+                  <div class="testimonial">
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                      </p>
+                      <h3 class="title">Lana Del Ray</h3>
+                      <span class="post">Web Developer</span>
+                  </div>
+
+                  <div class="testimonial">
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                      </p>
+                      <h3 class="title">David</h3>
+                      <span class="post">Web Designer</span>
+                  </div>
+
+                  <div class="testimonial">
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                      </p>
+                      <h3 class="title">Anderson</h3>
+                      <span class="post">Web Developer</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
   <!-- JS -->
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -256,5 +294,23 @@
   $(function () {
   $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
   });</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+<script>
+  $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:true,
+        navigationText:["",""],
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+</script>
 </body>
 </html>
