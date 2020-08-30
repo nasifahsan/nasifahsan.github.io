@@ -1,9 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
+       
+}
+.nav-pills{
+   
+
 }
 .nav-bg{
     background-color: #202731;
-    color: white;
+   
 }
 .about-container{
  background-color: #202731;
@@ -209,4 +214,9 @@ color: #FF4500;
 }
 @media only screen and (max-width: 479px){
     .owl-buttons{ bottom: 30%; }
+}
+
+.skills-container{
+    background-color: #000000; 
+    color: white;
 }
