@@ -43,7 +43,7 @@ body{
     width: 20px;
 }
 .latter-service{
-color: #FF4500;;
+color: #FF4500;
 }
 
 .serviceBox{
@@ -67,7 +67,7 @@ color: #FF4500;;
 .serviceBox .service-content h3{
     font-size:16px;
     text-transform: capitalize;
-    font-weight:600;hsl(0, 0%, 60%)
+    font-weight:600 hsl(0, 0%, 60%);
 }
 .serviceBox .service-content p{
     color: #ffffff;
