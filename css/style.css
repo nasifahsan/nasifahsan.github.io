@@ -109,11 +109,14 @@ color: #FF4500;
 .testimonial-section{ 
     background: #000000; 
     color: white; 
+    
+    
 }
 #testimonial-slider{
     padding: 50px 20px 35px 20px;
     background: #111111;
     text-align: center;
+    
     
 }
 .testimonial .description{
@@ -219,20 +222,17 @@ color: #FF4500;
 }
 .contact-container{
     background-color:  #000000; 
-    color: white; 
+color: white;
     
 }
 
 .form-inner{
     background-color: #111111;
-    
+    color: white;
     
 }
 
-.inner-form{
-    background-color: 
-  
-}
+
 
 .letter-span{
     font-size: 72px;
