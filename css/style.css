@@ -2,7 +2,6 @@ body{
     font-family: 'Roboto', sans-serif;
        
 }
-
 .nav-bg{
     background-color: #202731;
    
@@ -86,7 +85,6 @@ color: #FF4500;
         margin-bottom: 20px;
     }
 }
-
 .project-container{
     background-color: #000000;
     color: white; 
@@ -225,15 +223,11 @@ color: #FF4500;
 color: white;
     
 }
-
 .form-inner{
     background-color: #111111;
     color: white;
     
 }
-
-
-
 .letter-span{
     font-size: 72px;
 }
