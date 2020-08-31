@@ -424,7 +424,7 @@
           </div>
         </div>
       </div>
-
+      <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
       <!-- JS -->
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -456,6 +456,24 @@
             autoPlay: true
           });
         });
+      </script>
+      <script>
+        $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
       </script>
 </body>
 
